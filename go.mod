@@ -1,8 +1,7 @@
 module github.com/prometheus/prometheus
 
 go 1.22.7
-
-toolchain go1.23.4
+toolchain go1.24.1
 
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.16.0
@@ -76,7 +75,7 @@ require (
 	go.uber.org/multierr v1.11.0
 	golang.org/x/oauth2 v0.24.0
 	golang.org/x/sync v0.10.0
-	golang.org/x/sys v0.28.0
+	golang.org/x/sys v0.31.0
 	golang.org/x/text v0.21.0
 	golang.org/x/tools v0.28.0
 	google.golang.org/api v0.213.0
